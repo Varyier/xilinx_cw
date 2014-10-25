@@ -1,0 +1,8 @@
+TASK:
+Make PetaLinux app, that reads from device file image
+and sends it by socket to connected PC. Have two working options - 
+by UDP, by TCP. Configurabe from command line(getopt)
+
+STUDENTS: 
+Nikolaev. R.
+Khartsyzov R.

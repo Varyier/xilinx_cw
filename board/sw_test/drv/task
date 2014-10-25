@@ -1,0 +1,9 @@
+TASK:
+
+Create a pseudo-driver for char device, that provides 
+generation of images, that could be glued into a video stream
+
+Driver should be build with up-to-date PetaLinux kernel.
+You can test it, using QEMU virtual box.
+
+STUDENT: Anisimov A.

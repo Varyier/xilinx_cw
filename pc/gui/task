@@ -1,0 +1,7 @@
+TASK:
+Implement GUI for viewing video stream from board.
+Capture image from image capturing class -> ./capturing_test_lib
+
+STUDENTS:
+Kovalev A.
+Afanasiev A.

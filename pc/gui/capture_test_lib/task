@@ -1,0 +1,12 @@
+TASK:
+Create a class with following interface
+
+QImage* getImage();
+returning fabricated images, that could be glued in
+video stream. Used to test GUI
+
+That method should receive image from internet TCP socket.
+Who will send image to socket? Your class. There should
+be loop-back connection
+
+STUDENT: Strel'nikov A.
