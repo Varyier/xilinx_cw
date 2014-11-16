@@ -1,7 +1,7 @@
 #ifndef XILINXGUI_H
 #define XILINXGUI_H
 
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include "ui_xilinxgui.h"
 
 class XilinxGUI : public QMainWindow
@@ -9,7 +9,7 @@ class XilinxGUI : public QMainWindow
 	Q_OBJECT
 
 public:
-	XilinxGUI(QWidget *parent = 0, Qt::WFlags flags = 0);
+    XilinxGUI(QWidget *parent = 0, Qt::WindowFlags flags = 0);
 	~XilinxGUI();
 
 private:
@@ -17,7 +17,7 @@ private:
 
 public slots:
 	void ExitProgram();
-	void SendText();
+    void ShowPic();
 };
 
 #endif // XILINXGUI_H
