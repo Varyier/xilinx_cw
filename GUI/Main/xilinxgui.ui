@@ -6,24 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>92</height>
+    <width>739</width>
+    <height>358</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>XilinxGUI</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLineEdit" name="edSrc">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>10</y>
-      <width>113</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="lblDest">
     <property name="geometry">
      <rect>
@@ -37,17 +27,30 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnSend">
+   <widget class="QPushButton" name="btnShowPic">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
+      <x>330</x>
+      <y>0</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>Copy Text</string>
+     <string>Show image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblImageView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>701</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
@@ -65,7 +68,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
+     <width>739</width>
      <height>21</height>
     </rect>
    </property>
@@ -82,10 +85,13 @@
     <string>Exit</string>
    </property>
   </action>
+  <action name="actionShowImage">
+   <property name="text">
+    <string>ShowImage</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="xilinxgui.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
